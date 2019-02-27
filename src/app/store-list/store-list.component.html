@@ -1,0 +1,8 @@
+<div>
+  <div *ngFor="let store of stores">
+    <button (click)="showDetails(store._id)">{{store._id}}</button>
+  </div>
+</div>
+
+
+<div ><ul><li *ngFor="let employee of employeesByStore">{{employee.name}}</li></ul></div>
